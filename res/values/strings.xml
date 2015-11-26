@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">生日快乐</string>
+    <string name="hello_world">我希望送特别的东西给你，希望你能开心哈。	——by 高</string>
+    <string name="menu_settings">生日快乐</string>
+    <string name="title_activity_main">生日礼物</string>
+	<string name="next">点击看礼物</string>
+	<string name="exit">不想要礼物，退出。。。。</string>
+	<string name="label_pintu1">嘿嘿，先把图给拼好才能继续看哈^_^</string>
+	<string name="method_btn_label">游戏说明</string>
+	<string name="method_label">游戏说明</string>
+	<string name="method_detail">点击相连的两张图片进行交换，直至拼出原图才可继续看礼物哟</string>
+	<string name="show_source_image_btn_label">查看原图</string>
+	<string name="dialog">提示</string>
+	<string name="cannot_change">不相连的不能交换</string>
+	<string name="yes">确定</string>
+	<string name="congratulation">丽霞就是聪明!</string>
+	<string name="next_Label">确定</string>
+	<string name="back_label">返回</string>
+	<string name="source_back_label">查看原图，点击图片返回</string>
+	<string name="label_theEnd">生日快乐，好好许个愿吧^_^</string>
+	<string name="call_exit">^_^等待着你电话</string>
+	<string name="exit_call">-_-继续等你电话</string>
+</resources>

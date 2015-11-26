@@ -1,0 +1,53 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zhangbeta2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Main"
+            android:label="@string/title_activity_main" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name=".SePintu"
+            android:label="@string/label_pintu1"/>
+        
+        <activity
+            android:name=".Method"
+            android:label="@string/method_label"/>
+        
+        <activity
+            android:name=".TheEnd"
+            android:label="@string/label_theEnd"/>
+        
+        <activity
+            android:name=".SourceImageAty"
+            android:label="@string/source_back_label"/>
+   
+   <service android:name=".MusicServer">
+	<intent-filter>
+	<action android:name="com.angel.Android.MUSIC"/>
+	<category android:name="android.intent.category.default" />
+	</intent-filter>
+	</service>
+    
+    </application>
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+	        
+</manifest>
